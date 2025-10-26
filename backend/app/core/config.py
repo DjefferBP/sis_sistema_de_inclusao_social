@@ -1,0 +1,21 @@
+from pydantic import BaseSettings
+from typing import List
+
+class Settings(BaseSettings):
+
+    
+
+    DATABASE_URL: str = "postgresql://postgres:postgres123@localhost:5432/sis_database"
+    SECRET_KEY: str = "dfsdyagafhiuhw8yuahjdsnamwjfuierheugdfusyafjksdnhdfbnvdf"  
+    ALGORITHM: str = "HS256" 
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30 
+    
+
+    ALLOWED_ORIGINS: List[str] = [
+        "http://localhost:5173",  
+        "http://127.0.0.1:5173", 
+        "http://localhost:3000",
+        "https://autotrophically-huffish-arely.ngrok-free.dev"
+    ]
+    
+settings = Settings()
