@@ -4,12 +4,14 @@ from app.repositories.comment_repository import CommentRepository
 from app.repositories.post_repository import PostRepository
 from app.services.xp_service import XPService
 from app.models.comment import CommentCreate
+import asyncpg
 
 class CommentService:
-    def __init__(self, comment_repository: CommentRepository, post_repository: PostRepository, xp_service: XPService):
+    def __init__(self, comment_repository: CommentRepository, post_repository: PostRepository, xp_service: XPService, conn: asyncpg.Connection):
         self.comment_repo = comment_repository
         self.post_repo = post_repository
         self.xp_service = xp_service
+        self.conn = conn
 
     async def criar_comentario(self, user_id: int, comment_data: CommentCreate) -> Dict[str, Any]:
 
@@ -53,11 +55,12 @@ class CommentService:
     async def obter_comentario_por_id(self, comment_id: int) -> Dict[str, Any]:
 
         comentario = await self.comment_repo.get_by_id(comment_id)
-        if not comentario:
+        if comentario is None:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Comentário não encontrado"
             )
+    
         return dict(comentario)
 
     async def listar_comentarios_por_post(self, post_id: int, limit: int = 50, offset: int = 0) -> Dict[str, Any]:
@@ -97,6 +100,23 @@ class CommentService:
                 detail="Comentário não encontrado"
             )
 
+        ja_curtiu = await self.conn.fetchval(
+            "SELECT 1 FROM comentario_curtidas WHERE comentario_id = $1 AND usuario_id = $2",
+            comment_id, user_id
+        )
+        
+        if ja_curtiu:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Você já curtiu este comentário"
+            )
+
+
+        await self.conn.execute(
+            "INSERT INTO comentario_curtidas (comentario_id, usuario_id) VALUES ($1, $2)",
+            comment_id, user_id
+        )
+
         resultado_curtidas = await self.comment_repo.incrementar_curtidas(comment_id)
         if not resultado_curtidas:
             raise HTTPException(
@@ -118,7 +138,6 @@ class CommentService:
         }
 
     async def descurtir_comentario(self, comment_id: int, user_id: int) -> Dict[str, Any]:
-
         comentario = await self.comment_repo.get_by_id(comment_id)
         if not comentario:
             raise HTTPException(
@@ -126,9 +145,23 @@ class CommentService:
                 detail="Comentário não encontrado"
             )
 
+        ja_curtiu = await self.conn.fetchval(
+            "SELECT 1 FROM comentario_curtidas WHERE comentario_id = $1 AND usuario_id = $2",
+            comment_id, user_id
+        )
+        
+        if not ja_curtiu:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Você não curtiu este comentário"
+            )
+
+        await self.conn.execute(
+            "DELETE FROM comentario_curtidas WHERE comentario_id = $1 AND usuario_id = $2",
+            comment_id, user_id
+        )
+
         resultado_curtidas = await self.comment_repo.decrementar_curtidas(comment_id)
-        if not resultado_curtidas:
-            raise HTTPException(401, "Nao foi possível descurtir o comentário!")
         
         return {
             "comentario_id": comment_id,

@@ -2444,7 +2444,7 @@
         "kind": 5,
         "importPath": "backend.app.routers.comments",
         "description": "backend.app.routers.comments",
-        "peekOfCode": "router = APIRouter(prefix=\"/comentarios\", tags=[\"comentarios\"])\nasync def get_comment_service(conn: asyncpg.Connection = Depends(get_connection)) -> CommentService:\n    comment_repo = CommentRepository(conn)\n    post_repo = PostRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return CommentService(comment_repo, post_repo, xp_service)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_comentario(",
+        "peekOfCode": "router = APIRouter(prefix=\"/comentarios\", tags=[\"comentarios\"])\nasync def get_comment_service(conn: asyncpg.Connection = Depends(get_connection)) -> CommentService:\n    comment_repo = CommentRepository(conn)\n    post_repo = PostRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return CommentService(comment_repo, post_repo, xp_service, conn)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_comentario(",
         "detail": "backend.app.routers.comments",
         "documentation": {}
     },
@@ -2462,7 +2462,7 @@
         "kind": 5,
         "importPath": "backend.app.routers.posts",
         "description": "backend.app.routers.posts",
-        "peekOfCode": "router = APIRouter(prefix=\"/posts\", tags=[\"posts\"])\nasync def get_post_service(conn: asyncpg.Connection = Depends(get_connection)) -> PostService:\n    post_repo = PostRepository(conn)\n    comment_repo = CommentRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return PostService(post_repo, comment_repo, xp_service)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_post(",
+        "peekOfCode": "router = APIRouter(prefix=\"/posts\", tags=[\"posts\"])\nasync def get_post_service(conn: asyncpg.Connection = Depends(get_connection)) -> PostService:\n    post_repo = PostRepository(conn)\n    comment_repo = CommentRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return PostService(post_repo, comment_repo, xp_service, conn)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_post(",
         "detail": "backend.app.routers.posts",
         "documentation": {}
     },
@@ -2516,7 +2516,7 @@
         "kind": 6,
         "importPath": "backend.app.services.comment_service",
         "description": "backend.app.services.comment_service",
-        "peekOfCode": "class CommentService:\n    def __init__(self, comment_repository: CommentRepository, post_repository: PostRepository, xp_service: XPService):\n        self.comment_repo = comment_repository\n        self.post_repo = post_repository\n        self.xp_service = xp_service\n    async def criar_comentario(self, user_id: int, comment_data: CommentCreate) -> Dict[str, Any]:\n        post = await self.post_repo.get_by_id(comment_data.post_id)\n        if not post:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "peekOfCode": "class CommentService:\n    def __init__(self, comment_repository: CommentRepository, post_repository: PostRepository, xp_service: XPService, conn: asyncpg.Connection):\n        self.comment_repo = comment_repository\n        self.post_repo = post_repository\n        self.xp_service = xp_service\n        self.conn = conn\n    async def criar_comentario(self, user_id: int, comment_data: CommentCreate) -> Dict[str, Any]:\n        post = await self.post_repo.get_by_id(comment_data.post_id)\n        if not post:\n            raise HTTPException(",
         "detail": "backend.app.services.comment_service",
         "documentation": {}
     },
@@ -2534,7 +2534,7 @@
         "kind": 6,
         "importPath": "backend.app.services.post_service",
         "description": "backend.app.services.post_service",
-        "peekOfCode": "class PostService:\n    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService):\n        self.post_repo = post_repository\n        self.comment_repo = comment_repository\n        self.xp_service = xp_service\n    async def criar_post(self, user_id: int, post_data: PostCreate) -> Dict[str, Any]:\n        try:\n            novo_post = await self.post_repo.create(user_id, post_data)\n            if not novo_post:\n                raise HTTPException(",
+        "peekOfCode": "class PostService:\n    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService, conn: asyncpg.Connection):\n        self.post_repo = post_repository\n        self.comment_repo = comment_repository\n        self.xp_service = xp_service\n        self.conn = conn\n    async def criar_post(self, user_id: int, post_data: PostCreate) -> Dict[str, Any]:\n        try:\n            novo_post = await self.post_repo.create(user_id, post_data)\n            if not novo_post:",
         "detail": "backend.app.services.post_service",
         "documentation": {}
     },

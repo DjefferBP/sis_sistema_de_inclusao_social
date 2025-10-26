@@ -18,7 +18,7 @@ async def get_comment_service(conn: asyncpg.Connection = Depends(get_connection)
     xp_repo = XPRepository(conn)
     user_repo = UserRepository(conn)
     xp_service = XPService(xp_repo, user_repo)
-    return CommentService(comment_repo, post_repo, xp_service)
+    return CommentService(comment_repo, post_repo, xp_service, conn)
 
 @router.post("/", response_model=dict, status_code=status.HTTP_201_CREATED)
 async def criar_comentario(

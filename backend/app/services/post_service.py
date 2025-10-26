@@ -1,16 +1,16 @@
-# app/services/post_service.py
+import asyncpg
 from typing import Optional, Dict, Any, List
 from fastapi import HTTPException, status
 from app.repositories.post_repository import PostRepository
 from app.repositories.comment_repository import CommentRepository
 from app.services.xp_service import XPService
 from app.models.post import PostCreate
-
 class PostService:
-    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService):
+    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService, conn: asyncpg.Connection):
         self.post_repo = post_repository
         self.comment_repo = comment_repository
         self.xp_service = xp_service
+        self.conn = conn
 
     async def criar_post(self, user_id: int, post_data: PostCreate) -> Dict[str, Any]:
 
@@ -98,7 +98,21 @@ class PostService:
                 detail="Post não encontrado"
             )
 
+        ja_curtiu = await self.conn.fetchval(
+            "SELECT 1 FROM post_curtidas WHERE post_id = $1 AND usuario_id = $2",
+            post_id, user_id
+        )
+        if ja_curtiu:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Você já curtiu este post"
+            )
 
+        await self.conn.execute(
+            "INSERT INTO post_curtidas (post_id, usuario_id) VALUES ($1, $2)",
+            post_id, user_id
+        )
+        
         resultado_curtidas = await self.post_repo.incrementar_curtidas(post_id)
         if not resultado_curtidas:
             raise HTTPException(
