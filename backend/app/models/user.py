@@ -1,17 +1,19 @@
 from pydantic import BaseModel, EmailStr, validator
-from typing import Optional, List
+from typing import Any, Dict, Optional, List
 from datetime import datetime
 
 class UserBase(BaseModel):
     nome: str
     email: EmailStr
-    cep: Optional[str]
-    estado: Optional[str]
-    cidade: Optional[str]
-    bio: Optional[str]
-    
+    cep: Optional[str] = None
+    estado: Optional[str] = None
+    cidade: Optional[str] = None
+    bio: Optional[str] = None
+    grupos_vulnerabilidade: List[int] = []
+
 class UserCreate(UserBase):
     senha: str
+    
     @validator('senha')
     def validar_senha(cls, v):
         if len(v) < 6:
@@ -32,22 +34,31 @@ class UserLogin(BaseModel):
     email: EmailStr
     senha: str
 
-class UserResposta(UserBase):
+class UserResposta(BaseModel):
     id: int
+    nome: str
+    email: EmailStr
+    cep: Optional[str] = None
+    estado: Optional[str] = None
+    cidade: Optional[str] = None
+    bio: Optional[str] = None
+    foto_perfil: Optional[str] = None
     xp_atual: int
     nivel_atual: int
     titulo_equipado_id: Optional[int] = None
     created_at: datetime
+    grupos_vulnerabilidade: List[Dict[str, Any]] = []
 
     class Config:
         from_attributes = True
         
 class UserUpdate(BaseModel):
-    nome: Optional[str]
-    cep: Optional[str]
-    estado: Optional[str]
-    cidade: Optional[str]
-    bio: Optional[str]
+    nome: Optional[str] = None
+    cep: Optional[str] = None
+    estado: Optional[str] = None
+    cidade: Optional[str] = None
+    bio: Optional[str] = None
+    grupos_vulnerabilidade: Optional[List[int]] = None 
     
     @validator('nome')
     def validar_nome_update(cls, v):
@@ -60,10 +71,8 @@ class UserUpdate(BaseModel):
         return v
 
 class UserProfileResponse(UserResposta):
-    grupos_vulnerabilidade: List[str] = []
-    
     class Config:
         from_attributes = True
- 
+
 class UserFotoUpdate(BaseModel):
-    foto_base64: Optional[str] = None 
+    foto_base64: Optional[str] = None

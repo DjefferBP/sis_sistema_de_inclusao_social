@@ -1,4 +1,5 @@
 # app/models/__init__.py
+from app.models.trabalhos import TrabalhosBase
 from .user import (
     UserBase, UserCreate, UserLogin, UserResposta, 
     UserUpdate, UserProfileResponse
@@ -30,4 +31,8 @@ from .chat import (
 from .course import (
     CourseBase, CourseCreate, CourseUpdate, CourseResponse,
     CourseListResponse
+)
+
+from .trabalhos import (
+    TrabalhosBase
 )

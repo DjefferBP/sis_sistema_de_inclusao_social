@@ -4,6 +4,7 @@ from .post_service import PostService
 from .comment_service import CommentService
 from .chat_service import ChatService
 from .course_service import CourseService
+from .trabalhos_service import JobService
 
 __all__ = [
     "UserService",
@@ -11,5 +12,6 @@ __all__ = [
     "PostService",
     "CommentService",
     "ChatService",
-    "CourseService"
+    "CourseService",
+    "JobService"
 ]

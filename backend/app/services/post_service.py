@@ -47,12 +47,13 @@ class PostService:
     async def obter_post_por_id(self, post_id: int) -> Dict[str, Any]:
 
         post = await self.post_repo.get_by_id(post_id)
-        if not post:
+        print('O que retorna quando chamo essa função: ', post)
+        if post is None:
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Post não encontrado"
             )
-        return dict(post)
+        return post
 
     async def listar_posts(self, limit: int = 20, offset: int = 0) -> Dict[str, Any]:
         posts = await self.post_repo.get_all(limit, offset)
@@ -188,5 +189,5 @@ class PostService:
         return {
             **post,
             "comentarios_count": comentarios_count,
-            "engajamento_total": post['curtidas_count'] + comentarios_count
+            "engajamento_total": (post['curtidas_count'] + comentarios_count) if comentarios_count != None else post["curtidas_count"]
         }

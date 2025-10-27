@@ -5,6 +5,7 @@ from .posts import router as posts_router
 from .comments import router as comments_router
 from .chat import router as chat_router
 from .courses import router as courses_router
+from .trabalhos import router as jobs_router
 
 __all__ = [
     "auth_router",
@@ -13,5 +14,6 @@ __all__ = [
     "posts_router",
     "comments_router",
     "chat_router",
-    "courses_router"
+    "courses_router",
+    "jobs_router"
 ]

@@ -3,7 +3,7 @@ from typing import Dict, Any, List
 from fastapi import HTTPException, status
 from app.repositories.user_repository import UserRepository
 from app.repositories.xp_repository import XPRepository
-from app.models.user import UserCreate, UserLogin
+from app.models.user import UserCreate, UserLogin, UserUpdate
 from app.services.cep_service import cep_service
 
 class UserService:
@@ -146,3 +146,66 @@ class UserService:
 
     async def adicionar_xp_usuario(self, user_id: int, acao: str) -> Dict[str, Any]:
         return await self._adicionar_xp_por_acao(user_id, acao)
+    
+    async def atualizar_perfil_usuario(self, user_id: int, user_update: UserUpdate) -> Dict[str, Any]:
+        usuario = await self.user_repo.get_by_id(user_id)
+        if not usuario:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail="Usuário não encontrado!"
+            )
+
+        update_data = user_update.dict(exclude_unset=True)
+        
+        grupos_vulnerabilidade = update_data.pop('grupos_vulnerabilidade', None)
+
+        cep_atual = usuario.get('cep')
+        novo_cep = update_data.get('cep')
+
+        if (novo_cep and 
+            novo_cep != "string" and 
+            novo_cep != cep_atual and 
+            novo_cep.strip() != ''):
+            
+            try:
+                dados_cep = await cep_service.consultar_cep(novo_cep)
+                update_data['estado'] = dados_cep["estado"]
+                update_data['cidade'] = dados_cep["cidade"]
+                print(f"📍 CEP atualizado: {novo_cep} -> {dados_cep['cidade']}/{dados_cep['estado']}")
+            except Exception as e:
+                print(f"⚠️ Erro ao consultar CEP para atualização: {str(e)}")
+                if 'estado' in update_data:
+                    del update_data['estado']
+                if 'cidade' in update_data:
+                    del update_data['cidade']
+        
+        elif novo_cep == "string":
+            del update_data['cep']
+
+            if 'estado' in update_data:
+                del update_data['estado']
+            if 'cidade' in update_data:
+                del update_data['cidade']
+        
+        elif novo_cep == cep_atual:
+            if 'estado' in update_data:
+                del update_data['estado']
+            if 'cidade' in update_data:
+                del update_data['cidade']
+
+        if update_data:
+            usuario_atualizado = await self.user_repo.update(user_id, update_data)
+        else:
+            usuario_atualizado = usuario
+
+        if grupos_vulnerabilidade is not None:
+            await self.user_repo.update_grupos_vulnerabilidade(user_id, grupos_vulnerabilidade)
+            usuario_atualizado = await self.user_repo.get_by_id(user_id)
+
+        if not usuario_atualizado:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail="Erro ao atualizar perfil!"
+            )
+
+        return usuario_atualizado

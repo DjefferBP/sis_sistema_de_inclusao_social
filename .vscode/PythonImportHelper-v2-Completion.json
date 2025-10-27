@@ -80,6 +80,22 @@
         "documentation": {}
     },
     {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -192,6 +208,30 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -521,6 +561,22 @@
     },
     {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -625,6 +681,14 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -674,6 +738,86 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -770,70 +914,6 @@
     },
     {
         "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Query",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1017,6 +1097,22 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -1025,7 +1121,15 @@
         "documentation": {}
     },
     {
-        "label": "Depends",
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1449,6 +1553,14 @@
         "documentation": {}
     },
     {
+        "label": "UserUpdate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
         "label": "UserService",
         "importPath": "app.services.user_service",
         "description": "app.services.user_service",
@@ -1865,6 +1977,30 @@
         "documentation": {}
     },
     {
+        "label": "JobService",
+        "importPath": "app.services.trabalhos_service",
+        "description": "app.services.trabalhos_service",
+        "isExtraImport": true,
+        "detail": "app.services.trabalhos_service",
+        "documentation": {}
+    },
+    {
+        "label": "TrabalhosBase",
+        "importPath": "app.models.trabalhos",
+        "description": "app.models.trabalhos",
+        "isExtraImport": true,
+        "detail": "app.models.trabalhos",
+        "documentation": {}
+    },
+    {
+        "label": "TrabalhosBase",
+        "importPath": "app.models.trabalhos",
+        "description": "app.models.trabalhos",
+        "isExtraImport": true,
+        "detail": "app.models.trabalhos",
+        "documentation": {}
+    },
+    {
         "label": "base64",
         "kind": 6,
         "isExtraImport": true,
@@ -1904,6 +2040,23 @@
         "description": "contextlib",
         "isExtraImport": true,
         "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
@@ -1963,6 +2116,14 @@
         "documentation": {}
     },
     {
+        "label": "jobs_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
@@ -1985,7 +2146,7 @@
         "kind": 6,
         "importPath": "backend.app.core.config",
         "description": "backend.app.core.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    DATABASE_URL: str = \"postgresql://postgres:postgres123@localhost:5432/sis_database\"\n    SECRET_KEY: str = \"dfsdyagafhiuhw8yuahjdsnamwjfuierheugdfusyafjksdnhdfbnvdf\"  \n    ALGORITHM: str = \"HS256\" \n    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30 \n    ALLOWED_ORIGINS: List[str] = [\n        \"http://localhost:5173\",  \n        \"http://127.0.0.1:5173\", \n        \"http://localhost:3000\",\n        \"https://autotrophically-huffish-arely.ngrok-free.dev\"",
+        "peekOfCode": "class Settings(BaseSettings):\n    DATABASE_URL: str = \"postgresql://postgres:postgres123@localhost:5432/sis_database\"\n    SECRET_KEY: str = \"dfsdyagafhiuhw8yuahjdsnamwjfuierheugdfusyafjksdnhdfbnvdf\"  \n    ALGORITHM: str = \"HS256\" \n    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30 \n    API_KEY: str = \"68f79204849c6dd4b51858be\"\n    ALLOWED_ORIGINS: List[str] = [\n        \"http://localhost:5173\",  \n        \"http://127.0.0.1:5173\", \n        \"http://localhost:3000\",",
         "detail": "backend.app.core.config",
         "documentation": {}
     },
@@ -2224,11 +2385,20 @@
         "documentation": {}
     },
     {
+        "label": "TrabalhosBase",
+        "kind": 6,
+        "importPath": "backend.app.models.trabalhos",
+        "description": "backend.app.models.trabalhos",
+        "peekOfCode": "class TrabalhosBase(BaseModel):\n    field: Optional[str] = Field(None, description=\"Cargo desejado (ex: 'Desenvolvedor de software')\")\n    location: Optional[str] = Field(None, description=\"Localização (ex: 'Maringá')\")\n    page: Optional[int] = Field(1, ge=1, description=\"Página (mínimo: 1)\")\n    sort_by: Optional[str] = Field(None, description=\"Ordenar por: 'dia', 'semana', 'mês'\")\n    job_type: Optional[str] = Field(None, description=\"Tipo de vaga: 'tempo integral', 'meio período', etc.\")\n    experience_level: Optional[str] = Field(None, description=\"Nível: 'estágio', 'júnior', 'pleno', 'sênior', 'diretor'\")\n    work_type: Optional[str] = Field(None, description=\"Tipo: 'presencial', 'remoto', 'híbrido'\")",
+        "detail": "backend.app.models.trabalhos",
+        "documentation": {}
+    },
+    {
         "label": "UserBase",
         "kind": 6,
         "importPath": "backend.app.models.user",
         "description": "backend.app.models.user",
-        "peekOfCode": "class UserBase(BaseModel):\n    nome: str\n    email: EmailStr\n    cep: Optional[str]\n    estado: Optional[str]\n    cidade: Optional[str]\n    bio: Optional[str]\nclass UserCreate(UserBase):\n    senha: str\n    @validator('senha')",
+        "peekOfCode": "class UserBase(BaseModel):\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    grupos_vulnerabilidade: List[int] = []\nclass UserCreate(UserBase):\n    senha: str",
         "detail": "backend.app.models.user",
         "documentation": {}
     },
@@ -2246,7 +2416,7 @@
         "kind": 6,
         "importPath": "backend.app.models.user",
         "description": "backend.app.models.user",
-        "peekOfCode": "class UserLogin(BaseModel):\n    email: EmailStr\n    senha: str\nclass UserResposta(UserBase):\n    id: int\n    xp_atual: int\n    nivel_atual: int\n    titulo_equipado_id: Optional[int] = None\n    created_at: datetime\n    class Config:",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: EmailStr\n    senha: str\nclass UserResposta(BaseModel):\n    id: int\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None",
         "detail": "backend.app.models.user",
         "documentation": {}
     },
@@ -2255,7 +2425,7 @@
         "kind": 6,
         "importPath": "backend.app.models.user",
         "description": "backend.app.models.user",
-        "peekOfCode": "class UserResposta(UserBase):\n    id: int\n    xp_atual: int\n    nivel_atual: int\n    titulo_equipado_id: Optional[int] = None\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass UserUpdate(BaseModel):\n    nome: Optional[str]",
+        "peekOfCode": "class UserResposta(BaseModel):\n    id: int\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    foto_perfil: Optional[str] = None\n    xp_atual: int",
         "detail": "backend.app.models.user",
         "documentation": {}
     },
@@ -2264,7 +2434,7 @@
         "kind": 6,
         "importPath": "backend.app.models.user",
         "description": "backend.app.models.user",
-        "peekOfCode": "class UserUpdate(BaseModel):\n    nome: Optional[str]\n    cep: Optional[str]\n    estado: Optional[str]\n    cidade: Optional[str]\n    bio: Optional[str]\n    @validator('nome')\n    def validar_nome_update(cls, v):\n        if v is not None:\n            if len(v) < 2:",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    nome: Optional[str] = None\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    grupos_vulnerabilidade: Optional[List[int]] = None \n    @validator('nome')\n    def validar_nome_update(cls, v):\n        if v is not None:",
         "detail": "backend.app.models.user",
         "documentation": {}
     },
@@ -2273,7 +2443,7 @@
         "kind": 6,
         "importPath": "backend.app.models.user",
         "description": "backend.app.models.user",
-        "peekOfCode": "class UserProfileResponse(UserResposta):\n    grupos_vulnerabilidade: List[str] = []\n    class Config:\n        from_attributes = True\nclass UserFotoUpdate(BaseModel):\n    foto_base64: Optional[str] = None",
+        "peekOfCode": "class UserProfileResponse(UserResposta):\n    class Config:\n        from_attributes = True\nclass UserFotoUpdate(BaseModel):\n    foto_base64: Optional[str] = None",
         "detail": "backend.app.models.user",
         "documentation": {}
     },
@@ -2381,7 +2551,7 @@
         "kind": 6,
         "importPath": "backend.app.repositories.comment_repository",
         "description": "backend.app.repositories.comment_repository",
-        "peekOfCode": "class CommentRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, comment_data: CommentCreate) -> Optional[Dict[str, Any]]:\n        return await self.conn.fetchrow(\n            \"\"\"INSERT INTO comentarios (usuario_id, post_id, conteudo)\n               VALUES ($1, $2, $3)\n               RETURNING id, usuario_id, post_id, conteudo, \n                         curtidas_count, created_at, updated_at\"\"\",\n            user_id, comment_data.post_id, comment_data.conteudo",
+        "peekOfCode": "class CommentRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, comment_data: CommentCreate) -> Optional[Dict[str, Any]]:\n        result = await self.conn.fetchrow(\n            \"\"\"INSERT INTO comentarios (usuario_id, post_id, conteudo)\n               VALUES ($1, $2, $3)\n               RETURNING id, usuario_id, post_id, conteudo, \n                         curtidas_count, created_at, updated_at\"\"\",\n            user_id, comment_data.post_id, comment_data.conteudo",
         "detail": "backend.app.repositories.comment_repository",
         "documentation": {}
     },
@@ -2399,7 +2569,7 @@
         "kind": 6,
         "importPath": "backend.app.repositories.post_repository",
         "description": "backend.app.repositories.post_repository",
-        "peekOfCode": "class PostRepository: \n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, post_data: PostCreate) -> Optional[Dict[str, Any]]:\n        return await self.conn.fetchrow(\n            \"\"\"INSERT INTO posts (usuario_id, titulo, conteudo, categoria)\n               VALUES ($1, $2, $3, $4)\n               RETURNING id, usuario_id, titulo, conteudo, categoria, \n                         curtidas_count, comentarios_count, created_at, updated_at\"\"\",\n            user_id, post_data.titulo, post_data.conteudo, post_data.categoria",
+        "peekOfCode": "class PostRepository: \n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, post_data: PostCreate) -> Optional[Dict[str, Any]]:\n        result =  await self.conn.fetchrow(\n            \"\"\"INSERT INTO posts (usuario_id, titulo, conteudo, categoria)\n               VALUES ($1, $2, $3, $4)\n               RETURNING id, usuario_id, titulo, conteudo, categoria, \n                         curtidas_count, comentarios_count, created_at, updated_at\"\"\",\n            user_id, post_data.titulo, post_data.conteudo, post_data.categoria",
         "detail": "backend.app.repositories.post_repository",
         "documentation": {}
     },
@@ -2408,7 +2578,7 @@
         "kind": 6,
         "importPath": "backend.app.repositories.user_repository",
         "description": "backend.app.repositories.user_repository",
-        "peekOfCode": "class UserRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def get_by_id(self, user_id: int) -> Optional[Dict[str, int]]:\n        return await self.conn.fetchrow(\n            \"\"\"SELECT id, nome, email, cep, estado, cidade, foto_perfil,\n                      xp_atual, nivel_atual, titulo_equipado_id, bio, created_at\n               FROM usuarios WHERE id = $1\"\"\",\n            user_id\n        )",
+        "peekOfCode": "class UserRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def get_by_id(self, user_id: int) -> Optional[Dict[str, Any]]:\n        usuario: Optional[asyncpg.Record] = await self.conn.fetchrow(\n            \"\"\"SELECT id, nome, email, cep, estado, cidade, foto_perfil,\n                      xp_atual, nivel_atual, titulo_equipado_id, bio, created_at\n               FROM usuarios WHERE id = $1\"\"\",\n            user_id\n        )",
         "detail": "backend.app.repositories.user_repository",
         "documentation": {}
     },
@@ -2464,6 +2634,15 @@
         "description": "backend.app.routers.posts",
         "peekOfCode": "router = APIRouter(prefix=\"/posts\", tags=[\"posts\"])\nasync def get_post_service(conn: asyncpg.Connection = Depends(get_connection)) -> PostService:\n    post_repo = PostRepository(conn)\n    comment_repo = CommentRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return PostService(post_repo, comment_repo, xp_service, conn)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_post(",
         "detail": "backend.app.routers.posts",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.trabalhos",
+        "description": "backend.app.routers.trabalhos",
+        "peekOfCode": "router = APIRouter(prefix=\"/trabalhos\", tags=[\"Trabalhos\"])\n@router.post(\"/vagas\", response_model=dict)\nasync def buscar_vagas(\n    filtros: TrabalhosBase,\n    job_service: JobService = Depends(lambda: JobService())\n):\n    return await job_service.consultar_vagas_trabalhos(filtros)",
+        "detail": "backend.app.routers.trabalhos",
         "documentation": {}
     },
     {
@@ -2536,6 +2715,15 @@
         "description": "backend.app.services.post_service",
         "peekOfCode": "class PostService:\n    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService, conn: asyncpg.Connection):\n        self.post_repo = post_repository\n        self.comment_repo = comment_repository\n        self.xp_service = xp_service\n        self.conn = conn\n    async def criar_post(self, user_id: int, post_data: PostCreate) -> Dict[str, Any]:\n        try:\n            novo_post = await self.post_repo.create(user_id, post_data)\n            if not novo_post:",
         "detail": "backend.app.services.post_service",
+        "documentation": {}
+    },
+    {
+        "label": "JobService",
+        "kind": 6,
+        "importPath": "backend.app.services.trabalhos_service",
+        "description": "backend.app.services.trabalhos_service",
+        "peekOfCode": "class JobService:\n    def __init__(self):\n        self.api_key = settings.API_KEY\n        self.base_url = \"https://api.scrapingdog.com/linkedinjobs\"\n    async def consultar_vagas_trabalhos(self, dados: TrabalhosBase) -> Dict[str, Any]:\n        try:\n            periodo = dados.sort_by.strip().lower() if dados.sort_by else None\n            nvl_exp = dados.experience_level.strip().lower() if dados.experience_level else None\n            tipo_trabalho = dados.work_type.strip().lower() if dados.work_type else None\n            tipo_servico = dados.job_type.strip().lower() if dados.job_type else None",
+        "detail": "backend.app.services.trabalhos_service",
         "documentation": {}
     },
     {

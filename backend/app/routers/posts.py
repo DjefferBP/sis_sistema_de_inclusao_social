@@ -1,4 +1,3 @@
-# app/routers/posts.py
 from fastapi import APIRouter, Depends, HTTPException, status, Query
 import asyncpg
 from app.core.database import get_connection
@@ -44,8 +43,14 @@ async def obter_post(
     post_id: int,
     post_service: PostService = Depends(get_post_service)
 ):
-
-    return await post_service.obter_post_por_id(post_id)
+    try:
+        result = await post_service.obter_post_por_id(post_id)
+        print("🔍 DEBUG - Tipo do resultado:", type(result))
+        print("🔍 DEBUG - Conteúdo do resultado:", result)
+        return result
+    except Exception as e:
+        print("🔴 ERRO na rota:", str(e))
+        raise
 
 @router.get("/usuario/{user_id}", response_model=dict)
 async def listar_posts_usuario(

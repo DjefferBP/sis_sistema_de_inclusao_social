@@ -61,7 +61,7 @@ class CommentService:
                 detail="Comentário não encontrado"
             )
     
-        return dict(comentario)
+        return comentario
 
     async def listar_comentarios_por_post(self, post_id: int, limit: int = 50, offset: int = 0) -> Dict[str, Any]:
 
@@ -84,6 +84,8 @@ class CommentService:
     async def listar_comentarios_usuario(self, user_id: int, limit: int = 20, offset: int = 0) -> Dict[str, Any]:
 
         comentarios = await self.comment_repo.get_by_user_id(user_id, limit, offset)
+        if len(comentarios) == 0:
+            return {"message": "Esse usuário não possui nenhum comentário"}        
         
         return {
             "comentarios": [dict(comentario) for comentario in comentarios],
@@ -162,6 +164,11 @@ class CommentService:
         )
 
         resultado_curtidas = await self.comment_repo.decrementar_curtidas(comment_id)
+        if not resultado_curtidas:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail="Erro ao descurtir o comentário"
+            )
         
         return {
             "comentario_id": comment_id,

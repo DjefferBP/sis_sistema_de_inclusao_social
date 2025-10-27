@@ -1,8 +1,8 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-import asyncpg
-
+import time
+from fastapi.responses import JSONResponse
 from app.core.config import settings
 from app.core.database import Database, testar_conexao
 
@@ -14,6 +14,7 @@ from app.routers import (
     comments_router, 
     chat_router, 
     courses_router,
+    jobs_router
 )
 
 
@@ -108,38 +109,53 @@ app.include_router(posts_router)
 app.include_router(comments_router)
 app.include_router(chat_router)
 app.include_router(courses_router)
+app.include_router(jobs_router)
 
 @app.exception_handler(404)
-async def not_found_handler(request, exc):
-    return {
-        "error": "Endpoint não encontrado",
-        "message": "A rota solicitada não existe",
-        "path": request.url.path,
-        "available_endpoints": [
-            "/auth/registrar", "/auth/login",
-            "/usuarios/me", "/usuarios/",
-            "/xp/progresso", "/xp/historico",
-            "/posts/", "/posts/{id}",
-            "/comentarios/", "/comentarios/post/{post_id}",
-            "/chat/conversas/", "/chat/mensagens/",
-            "/cursos/", "/cursos/{id}"
-        ]
-    }
+async def not_found_handler(request: Request, exc):
+    if isinstance(exc, HTTPException):
+        return JSONResponse(
+            status_code=exc.status_code,
+            content=exc.detail
+        )
+    return JSONResponse(
+        status_code=404,
+        content={
+            "error": "Endpoint não encontrado",
+            "message": "A rota solicitada não existe",
+            "path": str(request.url.path),
+            "available_endpoints": [
+                "/auth/registrar", "/auth/login",
+                "/usuarios/me", "/usuarios/",
+                "/xp/progresso", "/xp/historico", 
+                "/posts/", "/posts/{id}",
+                "/comentarios/", "/comentarios/post/{post_id}",
+                "/chat/conversas/", "/chat/mensagens/",
+                "/cursos/", "/cursos/{id}"
+            ]
+        }
+    )
 
 @app.exception_handler(500)
-async def internal_error_handler(request, exc):
-    return {
-        "error": "Erro interno do servidor",
-        "message": "Algo deu errado no servidor",
-        "path": request.url.path,
-        "support": "Contate o administrador do sistema"
-    }
+async def internal_error_handler(request: Request, exc):
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": "Erro interno do servidor",
+            "message": "Algo deu errado no servidor",
+            "path": str(request.url.path),
+            "support": "Contate o administrador do sistema"
+        }
+    )
 
 @app.middleware("http")
-async def log_requests(request, call_next):
-    print(f"📍 {request.method} {request.url}")
+async def log_requests(request: Request, call_next):
+    start_time = time.time()
     response = await call_next(request)
-    print(f"✅ {request.method} {request.url} - Status: {response.status_code}")
+    process_time = time.time() - start_time
+
+    print(f"📍 {request.method} {request.url.path} - {response.status_code} - {process_time:.2f}s")
+    
     return response
 
 if __name__ == "__main__":
