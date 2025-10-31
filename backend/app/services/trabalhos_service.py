@@ -66,8 +66,6 @@ class JobService:
                 params["work_type"] = "remote"
             elif tipo_trabalho == "híbrido" or tipo_trabalho == "hibrido" or tipo_trabalho == "hybrid":
                 params["work_type"] = "hybrid"
-            
-            print(f"🔍 Consultando API com parâmetros: {params}")
         
 
             
@@ -75,8 +73,6 @@ class JobService:
                 async with session.get(self.base_url, params=params) as response:
                     
                     if response.status != 200:
-                        error_text = await response.text()
-                        print(f"❌ Erro na API: {response.status} - {error_text}")
                         raise HTTPException(
                             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                             detail=f"Erro na API de vagas: {response.status}"
@@ -102,13 +98,11 @@ class JobService:
                     }
                     
         except aiohttp.ClientError as e:
-            print(f"❌ Erro de conexão: {str(e)}")
             raise HTTPException(
                 status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
                 detail="Serviço de vagas temporariamente indisponível"
             )
         except Exception as e:
-            print(f"❌ Erro inesperado: {str(e)}")
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail="Erro interno ao buscar vagas"
