@@ -27,13 +27,20 @@ export const App = () => {
   const [users, setUsers] = useState<Usuario[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-useEffect(() => {
+
+
+  useEffect(() => {
     async function buscarUsuarios() {
       try {
         setLoading(true);
         setError(null);
         
-        const response = await fetch('/usuarios');
+        const response = await fetch('api/usuarios', {
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          }
+        });
         
         if (!response.ok) {
           throw new Error(`Erro ${response.status}: ${response.statusText}`);
@@ -42,7 +49,6 @@ useEffect(() => {
         const usuariosData: Usuario[] = await response.json();
         setUsers(usuariosData);
       } catch (err) {
-        // Tratando o erro do tipo 'unknown'
         if (err instanceof Error) {
           setError(err.message);
         } else {
