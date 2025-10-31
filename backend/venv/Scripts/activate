@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\djeff\sis_sistema_de_inclus-o_social\backend\venv"
+VIRTUAL_ENV="C:\Users\Administrador\Documents\sis_sistema_de_inclusao_social\backend\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

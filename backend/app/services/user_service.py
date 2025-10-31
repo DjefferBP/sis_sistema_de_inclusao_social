@@ -12,7 +12,6 @@ class UserService:
         self.xp_repo = xp_repository
 
     async def registrar_usuario(self, user_data: UserCreate) -> Dict[str, Any]:
-
         try:
             usuario_existente = await self.user_repo.get_by_email(user_data.email)
             if usuario_existente:
@@ -26,17 +25,20 @@ class UserService:
             
             if user_data.cep:
                 try:
+                    print(f"📍 Tentando consultar CEP: {user_data.cep}")
                     dados_cep = await cep_service.consultar_cep(user_data.cep)
-                    
                     estado = dados_cep["estado"]
                     cidade = dados_cep["cidade"]
+                    print(f"📍 CEP consultado com sucesso: {user_data.cep} -> {cidade}/{estado}")
                     
-                    print(f"📍 CEP consultado: {user_data.cep} -> {cidade}/{estado}")
-                    
-                except HTTPException as e:
-                    print(f"⚠️ Erro ao consultar CEP {user_data.cep}: {e.detail}")
+                except HTTPException as he:
+                    print(f"🚨 HTTPException do CEP capturada no UserService: {he.detail}")
+                    # PROPAGA A EXCEÇÃO
+                    raise he
                 except Exception as e:
-                    print(f"⚠️ Erro inesperado ao consultar CEP: {str(e)}")
+                    print(f"⚠️ Outro erro no CEP: {e}")
+                    # Continua sem atualizar estado/cidade
+                    pass
 
             user_data_dict = user_data.dict()
             user_data_dict["estado"] = estado
@@ -59,6 +61,9 @@ class UserService:
             
             return dict(novo_usuario)
         
+        except HTTPException:
+            # Re-lança HTTPExceptions para que cheguem no frontend
+            raise
         except Exception as e:
             print(f"❌ ERRO no registro: {str(e)}")
             raise HTTPException(
