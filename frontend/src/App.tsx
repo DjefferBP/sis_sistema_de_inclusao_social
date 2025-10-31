@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || ''
+console.log('API URL: ', API_BASE_URL)
 
-// Definindo a interface para os dados do usuário
 interface GrupoVulnerabilidade {
   id: number;
   categoria: string;
@@ -35,7 +36,11 @@ export const App = () => {
         setLoading(true);
         setError(null);
         
-        const response = await fetch('api/usuarios', {
+        const url = API_BASE_URL ? `${API_BASE_URL}/usuarios` : '/api/usuarios';
+        
+        console.log('🌐 Fazendo request para:', url);
+        
+        const response = await fetch(url, {
           headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
