@@ -1,0 +1,2834 @@
+[
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "asyncpg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncpg",
+        "description": "asyncpg",
+        "detail": "asyncpg",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "testar_conexao",
+        "importPath": "app.core.database",
+        "description": "app.core.database",
+        "isExtraImport": true,
+        "detail": "app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "obter_usuario_do_token",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "hash_senha",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ConversaBase",
+        "importPath": "app.models.chat",
+        "description": "app.models.chat",
+        "isExtraImport": true,
+        "detail": "app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemCreate",
+        "importPath": "app.models.chat",
+        "description": "app.models.chat",
+        "isExtraImport": true,
+        "detail": "app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemCreate",
+        "importPath": "app.models.chat",
+        "description": "app.models.chat",
+        "isExtraImport": true,
+        "detail": "app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemCreate",
+        "importPath": "app.models.chat",
+        "description": "app.models.chat",
+        "isExtraImport": true,
+        "detail": "app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "CommentCreate",
+        "importPath": "app.models.comment",
+        "description": "app.models.comment",
+        "isExtraImport": true,
+        "detail": "app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CommentCreate",
+        "importPath": "app.models.comment",
+        "description": "app.models.comment",
+        "isExtraImport": true,
+        "detail": "app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CommentResponse",
+        "importPath": "app.models.comment",
+        "description": "app.models.comment",
+        "isExtraImport": true,
+        "detail": "app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CommentCreate",
+        "importPath": "app.models.comment",
+        "description": "app.models.comment",
+        "isExtraImport": true,
+        "detail": "app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreate",
+        "importPath": "app.models.course",
+        "description": "app.models.course",
+        "isExtraImport": true,
+        "detail": "app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreate",
+        "importPath": "app.models.course",
+        "description": "app.models.course",
+        "isExtraImport": true,
+        "detail": "app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseUpdate",
+        "importPath": "app.models.course",
+        "description": "app.models.course",
+        "isExtraImport": true,
+        "detail": "app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreate",
+        "importPath": "app.models.course",
+        "description": "app.models.course",
+        "isExtraImport": true,
+        "detail": "app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "importPath": "app.models.post",
+        "description": "app.models.post",
+        "isExtraImport": true,
+        "detail": "app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "importPath": "app.models.post",
+        "description": "app.models.post",
+        "isExtraImport": true,
+        "detail": "app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostResponse",
+        "importPath": "app.models.post",
+        "description": "app.models.post",
+        "isExtraImport": true,
+        "detail": "app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "importPath": "app.models.post",
+        "description": "app.models.post",
+        "isExtraImport": true,
+        "detail": "app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResposta",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResposta",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileResponse",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "isExtraImport": true,
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.services.user_service",
+        "description": "app.services.user_service",
+        "isExtraImport": true,
+        "detail": "app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "app.repositories.user_repository",
+        "description": "app.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "importPath": "app.repositories.xp_repository",
+        "description": "app.repositories.xp_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual_optional",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "ChatService",
+        "importPath": "app.services.chat_service",
+        "description": "app.services.chat_service",
+        "isExtraImport": true,
+        "detail": "app.services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRepository",
+        "importPath": "app.repositories.chat_repository",
+        "description": "app.repositories.chat_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.chat_repository",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRepository",
+        "importPath": "app.repositories.chat_repository",
+        "description": "app.repositories.chat_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.chat_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "importPath": "app.services.xp_service",
+        "description": "app.services.xp_service",
+        "isExtraImport": true,
+        "detail": "app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "CommentService",
+        "importPath": "app.services.comment_service",
+        "description": "app.services.comment_service",
+        "isExtraImport": true,
+        "detail": "app.services.comment_service",
+        "documentation": {}
+    },
+    {
+        "label": "CommentRepository",
+        "importPath": "app.repositories.comment_repository",
+        "description": "app.repositories.comment_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.comment_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CommentRepository",
+        "importPath": "app.repositories.comment_repository",
+        "description": "app.repositories.comment_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.comment_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CommentRepository",
+        "importPath": "app.repositories.comment_repository",
+        "description": "app.repositories.comment_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.comment_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CommentRepository",
+        "importPath": "app.repositories.comment_repository",
+        "description": "app.repositories.comment_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.comment_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostRepository",
+        "importPath": "app.repositories.post_repository",
+        "description": "app.repositories.post_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.post_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostRepository",
+        "importPath": "app.repositories.post_repository",
+        "description": "app.repositories.post_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.post_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostRepository",
+        "importPath": "app.repositories.post_repository",
+        "description": "app.repositories.post_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.post_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostRepository",
+        "importPath": "app.repositories.post_repository",
+        "description": "app.repositories.post_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.post_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CourseService",
+        "importPath": "app.services.course_service",
+        "description": "app.services.course_service",
+        "isExtraImport": true,
+        "detail": "app.services.course_service",
+        "documentation": {}
+    },
+    {
+        "label": "CourseRepository",
+        "importPath": "app.repositories.course_repository",
+        "description": "app.repositories.course_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.course_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CourseRepository",
+        "importPath": "app.repositories.course_repository",
+        "description": "app.repositories.course_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.course_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostService",
+        "importPath": "app.services.post_service",
+        "description": "app.services.post_service",
+        "isExtraImport": true,
+        "detail": "app.services.post_service",
+        "documentation": {}
+    },
+    {
+        "label": "JobService",
+        "importPath": "app.services.trabalhos_service",
+        "description": "app.services.trabalhos_service",
+        "isExtraImport": true,
+        "detail": "app.services.trabalhos_service",
+        "documentation": {}
+    },
+    {
+        "label": "TrabalhosBase",
+        "importPath": "app.models.trabalhos",
+        "description": "app.models.trabalhos",
+        "isExtraImport": true,
+        "detail": "app.models.trabalhos",
+        "documentation": {}
+    },
+    {
+        "label": "TrabalhosBase",
+        "importPath": "app.models.trabalhos",
+        "description": "app.models.trabalhos",
+        "isExtraImport": true,
+        "detail": "app.models.trabalhos",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "cep_service",
+        "importPath": "app.services.cep_service",
+        "description": "app.services.cep_service",
+        "isExtraImport": true,
+        "detail": "app.services.cep_service",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "users_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "xp_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "posts_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "comments_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "chat_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "courses_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "jobs_router",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    DATABASE_URL: str = \"postgresql://postgres:postgres123@localhost:5432/sis_database\"\n    SECRET_KEY: str = \"dfsdyagafhiuhw8yuahjdsnamwjfuierheugdfusyafjksdnhdfbnvdf\"  \n    ALGORITHM: str = \"HS256\" \n    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30 \n    API_KEY: str = \"68f79204849c6dd4b51858be\"\n    ALLOWED_ORIGINS: List[str] = [\n    \"http://localhost:5173\",\n        \"http://127.0.0.1:5173\",\n        \"https://autotrophically-huffish-arely.ngrok-free.dev\",",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "backend.app.core.config",
+        "description": "backend.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "backend.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "backend.app.core.database",
+        "description": "backend.app.core.database",
+        "peekOfCode": "class Database:\n    _pool: Optional[asyncpg.Pool] = None\n    @classmethod\n    async def get_pool(cls) -> asyncpg.Pool:\n        if cls._pool is None:\n            print(\"🔄 Criando pool de conexões com o banco...\")\n            cls._pool = await asyncpg.create_pool(\n                settings.DATABASE_URL,\n                min_size=5,\n                max_size=20,",
+        "detail": "backend.app.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "backend.app.core.dependencies",
+        "description": "backend.app.core.dependencies",
+        "peekOfCode": "security = HTTPBearer()\nasync def get_usuario_atual(\n    credentials: HTTPAuthorizationCredentials = Depends(security),\n    conn: asyncpg.Connection = Depends(get_connection)\n) -> dict:\n    token = credentials.credentials\n    usuario_email = obter_usuario_do_token(token)\n    if not usuario_email:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "backend.app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "hash_senha",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def hash_senha(senha: str) -> str:\n    return pwd_context.hash(senha)\ndef verificar_senha(senha: str, senha_hash: str) -> bool:\n    return pwd_context.verify(senha, senha_hash)\ndef criar_token_acesso(data: dict) -> str:\n    to_encode = data.copy()\n    expire = datetime.now(timezone.utc) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\" : expire})\n    encoded_jwt = jwt.encode(\n        to_encode,",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_senha",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def verificar_senha(senha: str, senha_hash: str) -> bool:\n    return pwd_context.verify(senha, senha_hash)\ndef criar_token_acesso(data: dict) -> str:\n    to_encode = data.copy()\n    expire = datetime.now(timezone.utc) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\" : expire})\n    encoded_jwt = jwt.encode(\n        to_encode,\n        settings.SECRET_KEY,\n        algorithm=settings.ALGORITHM",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "criar_token_acesso",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def criar_token_acesso(data: dict) -> str:\n    to_encode = data.copy()\n    expire = datetime.now(timezone.utc) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\" : expire})\n    encoded_jwt = jwt.encode(\n        to_encode,\n        settings.SECRET_KEY,\n        algorithm=settings.ALGORITHM\n    )\n    return encoded_jwt",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "obter_usuario_do_token",
+        "kind": 2,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "def obter_usuario_do_token(token: str) -> Optional[str]:  \n    try:\n        payload = jwt.decode(\n            token, \n            settings.SECRET_KEY, \n            algorithms=[settings.ALGORITHM]\n        )\n        email: Optional[str] = payload.get(\"sub\")\n        if email is None:\n            return None",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.app.core.security",
+        "description": "backend.app.core.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_senha(senha: str) -> str:\n    return pwd_context.hash(senha)\ndef verificar_senha(senha: str, senha_hash: str) -> bool:\n    return pwd_context.verify(senha, senha_hash)\ndef criar_token_acesso(data: dict) -> str:\n    to_encode = data.copy()\n    expire = datetime.now(timezone.utc) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\" : expire})\n    encoded_jwt = jwt.encode(",
+        "detail": "backend.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "ConversaBase",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class ConversaBase(BaseModel):\n    usuario2_id: int  \nclass ConversaResponse(ConversaBase):\n    id: int\n    usuario1_id: int  \n    data_criacao: datetime\n    ultima_mensagem: Optional[datetime] = None\n    created_at: datetime\n    outro_usuario_nome: Optional[str] = None\n    outro_usuario_avatar: Optional[str] = None",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ConversaResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class ConversaResponse(ConversaBase):\n    id: int\n    usuario1_id: int  \n    data_criacao: datetime\n    ultima_mensagem: Optional[datetime] = None\n    created_at: datetime\n    outro_usuario_nome: Optional[str] = None\n    outro_usuario_avatar: Optional[str] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemBase",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class MensagemBase(BaseModel):\n    mensagem: str\nclass MensagemCreate(MensagemBase):\n    conversa_id: int\n    @validator('mensagem')\n    def validar_mensagem(cls, v):\n        if len(v) < 1:\n            raise ValueError('A mensagem não pode estar vazia')\n        if len(v) > 5000:\n            raise ValueError('A mensagem deve ter no máximo 5000 caracteres')",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemCreate",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class MensagemCreate(MensagemBase):\n    conversa_id: int\n    @validator('mensagem')\n    def validar_mensagem(cls, v):\n        if len(v) < 1:\n            raise ValueError('A mensagem não pode estar vazia')\n        if len(v) > 5000:\n            raise ValueError('A mensagem deve ter no máximo 5000 caracteres')\n        return v.strip()\nclass MensagemResponse(MensagemBase):",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class MensagemResponse(MensagemBase):\n    id: int\n    conversa_id: int\n    remetente_id: int\n    data_envio: datetime\n    lida: bool = False\n    created_at: datetime\n    remetente_nome: Optional[str] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ConversaWithMessagesResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.chat",
+        "description": "backend.app.models.chat",
+        "peekOfCode": "class ConversaWithMessagesResponse(ConversaResponse):\n    mensagens: List[MensagemResponse] = []",
+        "detail": "backend.app.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "kind": 6,
+        "importPath": "backend.app.models.comment",
+        "description": "backend.app.models.comment",
+        "peekOfCode": "class CommentBase(BaseModel):\n    conteudo: str\nclass CommentCreate(CommentBase):\n    post_id: int\n    @validator('conteudo')\n    def validar_conteudo(cls, v):\n        if len(v) < 2:\n            raise ValueError('O comentário deve ter pelo menos 2 caracteres')\n        if len(v) > 1000:\n            raise ValueError('O comentário deve ter no máximo 1000 caracteres')",
+        "detail": "backend.app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CommentCreate",
+        "kind": 6,
+        "importPath": "backend.app.models.comment",
+        "description": "backend.app.models.comment",
+        "peekOfCode": "class CommentCreate(CommentBase):\n    post_id: int\n    @validator('conteudo')\n    def validar_conteudo(cls, v):\n        if len(v) < 2:\n            raise ValueError('O comentário deve ter pelo menos 2 caracteres')\n        if len(v) > 1000:\n            raise ValueError('O comentário deve ter no máximo 1000 caracteres')\n        return v.strip()\nclass CommentResponse(CommentBase):",
+        "detail": "backend.app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CommentResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.comment",
+        "description": "backend.app.models.comment",
+        "peekOfCode": "class CommentResponse(CommentBase):\n    id: int\n    post_id: int\n    usuario_id: int\n    curtidas_count: int = 0\n    created_at: datetime\n    updated_at: datetime\n    autor_nome: Optional[str] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.comment",
+        "documentation": {}
+    },
+    {
+        "label": "CourseBase",
+        "kind": 6,
+        "importPath": "backend.app.models.course",
+        "description": "backend.app.models.course",
+        "peekOfCode": "class CourseBase(BaseModel):\n    titulo: str\n    descricao: Optional[str] = None\n    url_curso: str\n    imagem_url: Optional[str] = None\n    modalidade: Optional[str] = None\n    area: Optional[str] = None\n    carga_horaria: Optional[int] = None\n    gratuito: Optional[str] = None\nclass CourseCreate(CourseBase):",
+        "detail": "backend.app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseCreate",
+        "kind": 6,
+        "importPath": "backend.app.models.course",
+        "description": "backend.app.models.course",
+        "peekOfCode": "class CourseCreate(CourseBase):\n    @validator('titulo')\n    def validar_titulo(cls, v):\n        if len(v) < 5:\n            raise ValueError('O título deve ter pelo menos 5 caracteres')\n        if len(v) > 200:\n            raise ValueError('O título deve ter no máximo 200 caracteres')\n        return v.strip()\n    @validator('url_curso')\n    def validar_url(cls, v):",
+        "detail": "backend.app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseUpdate",
+        "kind": 6,
+        "importPath": "backend.app.models.course",
+        "description": "backend.app.models.course",
+        "peekOfCode": "class CourseUpdate(BaseModel):\n    titulo: Optional[str] = None\n    descricao: Optional[str] = None\n    imagem_url: Optional[str] = None\n    modalidade: Optional[str] = None\n    area: Optional[str] = None\n    carga_horaria: Optional[int] = None\n    gratuito: Optional[str] = None\nclass CourseResponse(CourseBase):\n    id: int",
+        "detail": "backend.app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.course",
+        "description": "backend.app.models.course",
+        "peekOfCode": "class CourseResponse(CourseBase):\n    id: int\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        from_attributes = True\nclass CourseListResponse(BaseModel):\n    cursos: List[CourseResponse]\n    total: int\n    pagina: int",
+        "detail": "backend.app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "CourseListResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.course",
+        "description": "backend.app.models.course",
+        "peekOfCode": "class CourseListResponse(BaseModel):\n    cursos: List[CourseResponse]\n    total: int\n    pagina: int\n    por_pagina: int\n    total_paginas: int",
+        "detail": "backend.app.models.course",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "backend.app.models.post",
+        "description": "backend.app.models.post",
+        "peekOfCode": "class PostBase(BaseModel):\n    titulo: str\n    conteudo: str\n    categoria: Optional[str] = None\nclass PostCreate(PostBase):\n    @validator('titulo')\n    def validar_titulo(cls, v):\n        if len(v) < 5:\n            raise ValueError('O título deve ter pelo menos 5 caracteres')\n        if len(v) > 200:",
+        "detail": "backend.app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "kind": 6,
+        "importPath": "backend.app.models.post",
+        "description": "backend.app.models.post",
+        "peekOfCode": "class PostCreate(PostBase):\n    @validator('titulo')\n    def validar_titulo(cls, v):\n        if len(v) < 5:\n            raise ValueError('O título deve ter pelo menos 5 caracteres')\n        if len(v) > 200:\n            raise ValueError('O título deve ter no máximo 200 caracteres')\n        return v.strip()\n    @validator('conteudo')\n    def validar_conteudo(cls, v):",
+        "detail": "backend.app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.post",
+        "description": "backend.app.models.post",
+        "peekOfCode": "class PostResponse(PostBase):\n    id: int\n    usuario_id: int\n    curtidas_count: int = 0\n    comentarios_count: int = 0\n    created_at: datetime\n    updated_at: datetime\n    autor_nome: Optional[str] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "PostListResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.post",
+        "description": "backend.app.models.post",
+        "peekOfCode": "class PostListResponse(BaseModel):\n    posts: List[PostResponse]\n    total: int\n    pagina: int\n    por_pagina: int\n    total_paginas: int",
+        "detail": "backend.app.models.post",
+        "documentation": {}
+    },
+    {
+        "label": "TrabalhosBase",
+        "kind": 6,
+        "importPath": "backend.app.models.trabalhos",
+        "description": "backend.app.models.trabalhos",
+        "peekOfCode": "class TrabalhosBase(BaseModel):\n    field: Optional[str] = Field(None, description=\"Cargo desejado (ex: 'Desenvolvedor de software')\")\n    location: Optional[str] = Field(None, description=\"Localização (ex: 'Maringá')\")\n    page: Optional[int] = Field(1, ge=1, description=\"Página (mínimo: 1)\")\n    sort_by: Optional[str] = Field(None, description=\"Ordenar por: 'dia', 'semana', 'mês'\")\n    job_type: Optional[str] = Field(None, description=\"Tipo de vaga: 'tempo integral', 'meio período', etc.\")\n    experience_level: Optional[str] = Field(None, description=\"Nível: 'estágio', 'júnior', 'pleno', 'sênior', 'diretor'\")\n    work_type: Optional[str] = Field(None, description=\"Tipo: 'presencial', 'remoto', 'híbrido'\")",
+        "detail": "backend.app.models.trabalhos",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserBase(BaseModel):\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    grupos_vulnerabilidade: List[int] = []\nclass UserCreate(UserBase):\n    senha: str",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserCreate(UserBase):\n    senha: str\n    @validator('senha')\n    def validar_senha(cls, v):\n        if len(v) < 6:\n            raise ValueError(\"A senha deve ter pelo menos 6 caracteres!\")\n        if len(v) > 100:\n            raise ValueError(\"A senha deve ter no máximo 100 caracteres!\")\n        return v\n    @validator('nome')",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: EmailStr\n    senha: str\nclass UserResposta(BaseModel):\n    id: int\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserResposta",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserResposta(BaseModel):\n    id: int\n    nome: str\n    email: EmailStr\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    foto_perfil: Optional[str] = None\n    xp_atual: int",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    nome: Optional[str] = None\n    cep: Optional[str] = None\n    estado: Optional[str] = None\n    cidade: Optional[str] = None\n    bio: Optional[str] = None\n    grupos_vulnerabilidade: Optional[List[int]] = None \n    @validator('nome')\n    def validar_nome_update(cls, v):\n        if v is not None:",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserProfileResponse(UserResposta):\n    class Config:\n        from_attributes = True\nclass UserFotoUpdate(BaseModel):\n    foto_base64: Optional[str] = None",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserFotoUpdate",
+        "kind": 6,
+        "importPath": "backend.app.models.user",
+        "description": "backend.app.models.user",
+        "peekOfCode": "class UserFotoUpdate(BaseModel):\n    foto_base64: Optional[str] = None",
+        "detail": "backend.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "NivelTituloBase",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class NivelTituloBase(BaseModel):\n    nivel: int\n    xp_necessario: int\n    titulo: str\n    descricao: Optional[str] = None\nclass NivelTituloResponse(NivelTituloBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "NivelTituloResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class NivelTituloResponse(NivelTituloBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass AcaoXPBase(BaseModel):\n    acao: str\n    xp_ganho: int\n    descricao: Optional[str] = None\nclass AcaoXPResponse(AcaoXPBase):",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "AcaoXPBase",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class AcaoXPBase(BaseModel):\n    acao: str\n    xp_ganho: int\n    descricao: Optional[str] = None\nclass AcaoXPResponse(AcaoXPBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass XPHistoricoBase(BaseModel):",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "AcaoXPResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class AcaoXPResponse(AcaoXPBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass XPHistoricoBase(BaseModel):\n    acao: str\n    xp_ganho: int\n    descricao: Optional[str] = None\nclass XPHistoricoResponse(XPHistoricoBase):",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "XPHistoricoBase",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class XPHistoricoBase(BaseModel):\n    acao: str\n    xp_ganho: int\n    descricao: Optional[str] = None\nclass XPHistoricoResponse(XPHistoricoBase):\n    id: int\n    usuario_id: int\n    data_acao: datetime\n    created_at: datetime\n    class Config:",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "XPHistoricoResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class XPHistoricoResponse(XPHistoricoBase):\n    id: int\n    usuario_id: int\n    data_acao: datetime\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass GrupoVulnerabilidadeBase(BaseModel):\n    categoria: str\n    tipo: str",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "GrupoVulnerabilidadeBase",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class GrupoVulnerabilidadeBase(BaseModel):\n    categoria: str\n    tipo: str\nclass GrupoVulnerabilidadeResponse(GrupoVulnerabilidadeBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass UserProgressoResponse(BaseModel):\n    usuario_id: int",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "GrupoVulnerabilidadeResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class GrupoVulnerabilidadeResponse(GrupoVulnerabilidadeBase):\n    id: int\n    created_at: datetime\n    class Config:\n        from_attributes = True\nclass UserProgressoResponse(BaseModel):\n    usuario_id: int\n    total_xp: int\n    nivel_atual: int\n    titulo_equipado: Optional[str] = None",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "UserProgressoResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.xp",
+        "description": "backend.app.models.xp",
+        "peekOfCode": "class UserProgressoResponse(BaseModel):\n    usuario_id: int\n    total_xp: int\n    nivel_atual: int\n    titulo_equipado: Optional[str] = None\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.models.xp",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.chat_repository",
+        "description": "backend.app.repositories.chat_repository",
+        "peekOfCode": "class ChatRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def get_or_create_conversa(self, usuario1_id: int, usuario2_id: int) -> Optional[Dict[str, Any]]:\n        user1, user2 = sorted([usuario1_id, usuario2_id])\n        conversa = await self.conn.fetchrow(\n            \"\"\"SELECT id, usuario1_id, usuario2_id, data_criacao, ultima_mensagem, created_at\n               FROM conversas \n               WHERE usuario1_id = $1 AND usuario2_id = $2\"\"\",\n            user1, user2",
+        "detail": "backend.app.repositories.chat_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CommentRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.comment_repository",
+        "description": "backend.app.repositories.comment_repository",
+        "peekOfCode": "class CommentRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, comment_data: CommentCreate) -> Optional[Dict[str, Any]]:\n        result = await self.conn.fetchrow(\n            \"\"\"INSERT INTO comentarios (usuario_id, post_id, conteudo)\n               VALUES ($1, $2, $3)\n               RETURNING id, usuario_id, post_id, conteudo, \n                         curtidas_count, created_at, updated_at\"\"\",\n            user_id, comment_data.post_id, comment_data.conteudo",
+        "detail": "backend.app.repositories.comment_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CourseRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.course_repository",
+        "description": "backend.app.repositories.course_repository",
+        "peekOfCode": "class CourseRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, course_data: CourseCreate) -> Optional[Dict[str, Any]]:\n        return await self.conn.fetchrow(\n            \"\"\"INSERT INTO cursos (titulo, descricao, url_curso, imagem_url, modalidade, area, carga_horaria, gratuito)\n               VALUES ($1, $2, $3, $4, $5, $6, $7, $8)\n               RETURNING id, titulo, descricao, url_curso, imagem_url, modalidade, area, carga_horaria, gratuito, created_at, updated_at\"\"\",\n            course_data.titulo, course_data.descricao, course_data.url_curso,\n            course_data.imagem_url, course_data.modalidade, course_data.area,",
+        "detail": "backend.app.repositories.course_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PostRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.post_repository",
+        "description": "backend.app.repositories.post_repository",
+        "peekOfCode": "class PostRepository: \n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def create(self, user_id: int, post_data: PostCreate) -> Optional[Dict[str, Any]]:\n        result =  await self.conn.fetchrow(\n            \"\"\"INSERT INTO posts (usuario_id, titulo, conteudo, categoria)\n               VALUES ($1, $2, $3, $4)\n               RETURNING id, usuario_id, titulo, conteudo, categoria, \n                         curtidas_count, comentarios_count, created_at, updated_at\"\"\",\n            user_id, post_data.titulo, post_data.conteudo, post_data.categoria",
+        "detail": "backend.app.repositories.post_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.user_repository",
+        "description": "backend.app.repositories.user_repository",
+        "peekOfCode": "class UserRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def get_by_id(self, user_id: int) -> Optional[Dict[str, Any]]:\n        usuario: Optional[asyncpg.Record] = await self.conn.fetchrow(\n            \"\"\"SELECT id, nome, email, cep, estado, cidade, foto_perfil,\n                      xp_atual, nivel_atual, titulo_equipado_id, bio, created_at\n               FROM usuarios WHERE id = $1\"\"\",\n            user_id\n        )",
+        "detail": "backend.app.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "XPRepository",
+        "kind": 6,
+        "importPath": "backend.app.repositories.xp_repository",
+        "description": "backend.app.repositories.xp_repository",
+        "peekOfCode": "class XPRepository:\n    def __init__(self, connection: asyncpg.Connection):\n        self.conn = connection\n    async def get_acao_xp(self, acao: str) -> Optional[Dict[str, Any]]:\n        return await self.conn.fetchrow(\n            \"SELECT id, acao, xp_ganho, descricao FROM acoes_xp WHERE acao = $1\",\n            acao\n        )\n    async def get_nivel_por_xp(self, xp_total: int) -> Optional[Dict[str, Any]]:\n        return await self.conn.fetchrow(",
+        "detail": "backend.app.repositories.xp_repository",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.auth",
+        "description": "backend.app.routers.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"autenticacao\"])\nasync def get_user_service(conn: asyncpg.Connection = Depends(get_connection)) -> UserService:\n    user_repo = UserRepository(conn)\n    xp_repo = XPRepository(conn)\n    return UserService(user_repo, xp_repo)\n@router.post(\"/registrar\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def registrar_usuario(\n    user_data: UserCreate,\n    user_service: UserService = Depends(get_user_service)\n):",
+        "detail": "backend.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.chat",
+        "description": "backend.app.routers.chat",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\nasync def get_chat_service(conn: asyncpg.Connection = Depends(get_connection)) -> ChatService:\n    chat_repo = ChatRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_repo = XPRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return ChatService(chat_repo, user_repo, xp_service)\n@router.post(\"/conversas/{usuario2_id}\", response_model=dict)\nasync def iniciar_conversa(\n    usuario2_id: int,",
+        "detail": "backend.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.comments",
+        "description": "backend.app.routers.comments",
+        "peekOfCode": "router = APIRouter(prefix=\"/comentarios\", tags=[\"comentarios\"])\nasync def get_comment_service(conn: asyncpg.Connection = Depends(get_connection)) -> CommentService:\n    comment_repo = CommentRepository(conn)\n    post_repo = PostRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return CommentService(comment_repo, post_repo, xp_service, conn)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_comentario(",
+        "detail": "backend.app.routers.comments",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.courses",
+        "description": "backend.app.routers.courses",
+        "peekOfCode": "router = APIRouter(prefix=\"/cursos\", tags=[\"cursos\"])\nasync def get_course_service(conn: asyncpg.Connection = Depends(get_connection)) -> CourseService:\n    course_repo = CourseRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return CourseService(course_repo, xp_service)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_curso(\n    course_data: CourseCreate,",
+        "detail": "backend.app.routers.courses",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.posts",
+        "description": "backend.app.routers.posts",
+        "peekOfCode": "router = APIRouter(prefix=\"/posts\", tags=[\"posts\"])\nasync def get_post_service(conn: asyncpg.Connection = Depends(get_connection)) -> PostService:\n    post_repo = PostRepository(conn)\n    comment_repo = CommentRepository(conn)\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    xp_service = XPService(xp_repo, user_repo)\n    return PostService(post_repo, comment_repo, xp_service, conn)\n@router.post(\"/\", response_model=dict, status_code=status.HTTP_201_CREATED)\nasync def criar_post(",
+        "detail": "backend.app.routers.posts",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.trabalhos",
+        "description": "backend.app.routers.trabalhos",
+        "peekOfCode": "router = APIRouter(prefix=\"/trabalhos\", tags=[\"Trabalhos\"])\n@router.post(\"/vagas\", response_model=dict)\nasync def buscar_vagas(\n    filtros: TrabalhosBase,\n    job_service: JobService = Depends(lambda: JobService())\n):\n    return await job_service.consultar_vagas_trabalhos(filtros)",
+        "detail": "backend.app.routers.trabalhos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.users",
+        "description": "backend.app.routers.users",
+        "peekOfCode": "router = APIRouter(prefix=\"/usuarios\", tags=[\"usuarios\"])\nasync def get_user_service(conn: asyncpg.Connection = Depends(get_connection)) -> UserService:\n    user_repo = UserRepository(conn)\n    xp_repo = XPRepository(conn)\n    return UserService(user_repo, xp_repo)\n@router.get(\"/me\", response_model=UserProfileResponse)\nasync def obter_perfil_usuario(\n    usuario_atual: dict = Depends(get_usuario_atual),\n    user_service: UserService = Depends(get_user_service)\n):",
+        "detail": "backend.app.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.xp",
+        "description": "backend.app.routers.xp",
+        "peekOfCode": "router = APIRouter(prefix=\"/xp\", tags=[\"sistema-xp\"])\nasync def get_xp_service(conn: asyncpg.Connection = Depends(get_connection)) -> XPService:\n    xp_repo = XPRepository(conn)\n    user_repo = UserRepository(conn)\n    return XPService(xp_repo, user_repo)\n@router.get(\"/progresso\", response_model=dict)\nasync def obter_progresso_usuario(\n    usuario_atual: dict = Depends(get_usuario_atual),\n    xp_service: XPService = Depends(get_xp_service)\n):",
+        "detail": "backend.app.routers.xp",
+        "documentation": {}
+    },
+    {
+        "label": "CEPService",
+        "kind": 6,
+        "importPath": "backend.app.services.cep_service",
+        "description": "backend.app.services.cep_service",
+        "peekOfCode": "class CEPService:\n    def __init__(self):\n        self.base_url = \"https://viacep.com.br/ws\"\n    async def consultar_cep(self, cep: str) -> Dict[str, Any]:\n        cep_limpo = cep.replace(\"-\", \"\").replace(\" \", \"\")\n        if len(cep_limpo) != 8 or not cep_limpo.isdigit():\n            raise HTTPException(\n                status_code=status.HTTP_400_BAD_REQUEST,\n                detail=\"CEP inválido. Deve conter 8 dígitos.\"\n            )",
+        "detail": "backend.app.services.cep_service",
+        "documentation": {}
+    },
+    {
+        "label": "cep_service",
+        "kind": 5,
+        "importPath": "backend.app.services.cep_service",
+        "description": "backend.app.services.cep_service",
+        "peekOfCode": "cep_service = CEPService()",
+        "detail": "backend.app.services.cep_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChatService",
+        "kind": 6,
+        "importPath": "backend.app.services.chat_service",
+        "description": "backend.app.services.chat_service",
+        "peekOfCode": "class ChatService:\n    def __init__(self, chat_repository: ChatRepository, user_repository: UserRepository, xp_service: XPService):\n        self.chat_repo = chat_repository\n        self.user_repo = user_repository\n        self.xp_service = xp_service\n    async def iniciar_ou_buscar_conversa(self, usuario1_id: int, usuario2_id: int) -> Dict[str, Any]:\n        usuario2 = await self.user_repo.get_by_id(usuario2_id)\n        if not usuario2:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,",
+        "detail": "backend.app.services.chat_service",
+        "documentation": {}
+    },
+    {
+        "label": "CommentService",
+        "kind": 6,
+        "importPath": "backend.app.services.comment_service",
+        "description": "backend.app.services.comment_service",
+        "peekOfCode": "class CommentService:\n    def __init__(self, comment_repository: CommentRepository, post_repository: PostRepository, xp_service: XPService, conn: asyncpg.Connection):\n        self.comment_repo = comment_repository\n        self.post_repo = post_repository\n        self.xp_service = xp_service\n        self.conn = conn\n    async def criar_comentario(self, user_id: int, comment_data: CommentCreate) -> Dict[str, Any]:\n        post = await self.post_repo.get_by_id(comment_data.post_id)\n        if not post:\n            raise HTTPException(",
+        "detail": "backend.app.services.comment_service",
+        "documentation": {}
+    },
+    {
+        "label": "CourseService",
+        "kind": 6,
+        "importPath": "backend.app.services.course_service",
+        "description": "backend.app.services.course_service",
+        "peekOfCode": "class CourseService:\n    def __init__(self, course_repository: CourseRepository, xp_service: XPService):\n        self.course_repo = course_repository\n        self.xp_service = xp_service\n    async def criar_curso(self, course_data: CourseCreate) -> Dict[str, Any]:\n        try:\n            novo_curso = await self.course_repo.create(course_data)\n            if not novo_curso:\n                raise HTTPException(\n                    status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,",
+        "detail": "backend.app.services.course_service",
+        "documentation": {}
+    },
+    {
+        "label": "PostService",
+        "kind": 6,
+        "importPath": "backend.app.services.post_service",
+        "description": "backend.app.services.post_service",
+        "peekOfCode": "class PostService:\n    def __init__(self, post_repository: PostRepository, comment_repository: CommentRepository, xp_service: XPService, conn: asyncpg.Connection):\n        self.post_repo = post_repository\n        self.comment_repo = comment_repository\n        self.xp_service = xp_service\n        self.conn = conn\n    async def criar_post(self, user_id: int, post_data: PostCreate) -> Dict[str, Any]:\n        try:\n            novo_post = await self.post_repo.create(user_id, post_data)\n            if not novo_post:",
+        "detail": "backend.app.services.post_service",
+        "documentation": {}
+    },
+    {
+        "label": "JobService",
+        "kind": 6,
+        "importPath": "backend.app.services.trabalhos_service",
+        "description": "backend.app.services.trabalhos_service",
+        "peekOfCode": "class JobService:\n    def __init__(self):\n        self.api_key = settings.API_KEY\n        self.base_url = \"https://api.scrapingdog.com/linkedinjobs\"\n    async def consultar_vagas_trabalhos(self, dados: TrabalhosBase) -> Dict[str, Any]:\n        try:\n            # Parâmetros exatos da documentação\n            params = {\n                \"api_key\": self.api_key,\n                \"page\": dados.page or 1,",
+        "detail": "backend.app.services.trabalhos_service",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "backend.app.services.user_service",
+        "description": "backend.app.services.user_service",
+        "peekOfCode": "class UserService:\n    def __init__(self, user_repository: UserRepository, xp_repository: XPRepository):\n        self.user_repo = user_repository\n        self.xp_repo = xp_repository\n    async def registrar_usuario(self, user_data: UserCreate) -> Dict[str, Any]:\n        try:\n            usuario_existente = await self.user_repo.get_by_email(user_data.email)\n            if usuario_existente:\n                raise HTTPException(\n                    status_code=status.HTTP_400_BAD_REQUEST,",
+        "detail": "backend.app.services.user_service",
+        "documentation": {}
+    },
+    {
+        "label": "XPService",
+        "kind": 6,
+        "importPath": "backend.app.services.xp_service",
+        "description": "backend.app.services.xp_service",
+        "peekOfCode": "class XPService:\n    def __init__(self, xp_repository: XPRepository, user_repository: UserRepository):\n        self.xp_repo = xp_repository\n        self.user_repo = user_repository\n    async def adicionar_xp_usuario(self, user_id: int, acao: str, descricao_personalizada: Optional[str] = None) -> Dict[str, Any]:\n        acao_xp = await self.xp_repo.get_acao_xp(acao)\n        if not acao_xp:\n            raise HTTPException(\n                status_code=status.HTTP_404_NOT_FOUND,\n                detail=f\"Ação '{acao}' não encontrada no sistema de XP\"",
+        "detail": "backend.app.services.xp_service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Sistema de Inclusão Social API\",\n    description=\"API para plataforma de inclusão social com sistema gamificado\",\n    version=\"1.0.0\",\n    lifespan=lifespan,\n    docs_url=\"/docs\",\n    redoc_url=\"/redoc\",\n    redirect_slashes=False\n)\n@app.middleware(\"http\")",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.scripts.popular_cursos",
+        "description": "backend.scripts.popular_cursos",
+        "peekOfCode": "DATABASE_URL = \"postgresql://postgres:postgres123@localhost:5432/sis_database\"\nCURSOS_SEBRAE = [\n    {\n        \"id\": 1,\n        \"titulo\": \"Marketing digital para sua empresa: primeiros passos\",\n        \"descricao\": \"Curso oferecido pelo SEBRAE\",\n        \"url\": \"https://sebrae.com.br/https://sebrae.com.br/sites/PortalSebrae/cursosonline/marketing-digital-para-sua-empresa-primeiros-passos,1d4740b4a19a8910VgnVCM1000001b00320aRCRD\",\n        \"imagem_webp\": \"\",\n        \"imagem_png\": \"\",\n        \"duracao\": \"Duração 9h\",",
+        "detail": "backend.scripts.popular_cursos",
+        "documentation": {}
+    },
+    {
+        "label": "CURSOS_SEBRAE",
+        "kind": 5,
+        "importPath": "backend.scripts.popular_cursos",
+        "description": "backend.scripts.popular_cursos",
+        "peekOfCode": "CURSOS_SEBRAE = [\n    {\n        \"id\": 1,\n        \"titulo\": \"Marketing digital para sua empresa: primeiros passos\",\n        \"descricao\": \"Curso oferecido pelo SEBRAE\",\n        \"url\": \"https://sebrae.com.br/https://sebrae.com.br/sites/PortalSebrae/cursosonline/marketing-digital-para-sua-empresa-primeiros-passos,1d4740b4a19a8910VgnVCM1000001b00320aRCRD\",\n        \"imagem_webp\": \"\",\n        \"imagem_png\": \"\",\n        \"duracao\": \"Duração 9h\",\n        \"modalidade\": \"Online\",",
+        "detail": "backend.scripts.popular_cursos",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
